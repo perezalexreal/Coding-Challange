@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+body {
+  background-image: url("background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Div con il colore nero trasparente che contiene gli elementi */
+.background {
+  background-size: auto;
+  background-color: rgba(0,0,0,0.5);
+  border-radius: 10px;
+  margin-left: 18%;
+  margin-right: 18%;
+
+}
+
+.container {
+  width: 80%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px 0px 40px 0px;
+}
+
+header{
+  color: #0d0;
+  font-size: 10px;
+  text-align: center;
+}
+
+.logo {
+  width: 25%;
+  height: 25%;
+  margin-top: 5%;
+}
+
+.title{
+  margin-bottom: 1px;
+  margin-top: 1px;
+}
+
+.menu{
+  background-color: #0d0;
+  width: 100%;
+  text-align: center;
+  padding: 5px 8px;
+
+}
+
+.item {
+padding: 10px 0px 10px 0px;
+}
+
+.button{
+  width: auto;
+  height: 18px;
+  font-size: 12px;
+}
+
+main{
+  color: white;
+  font-size: 10px;
+  padding: 15px 0px 15px 0px;
+}
+
+.name{
+  display: inline-block;
+  font-weight: bold;
+  font-size: 15px;
+  margin-bottom: 1px;
+}
+
+.percent{
+  display: block;
+  border-radius: 4px;
+  margin: 4px 2px;
+  padding: 9px 26px;
+}
+
+/*  Percentiali di batteria con relativi colori */
+.medium{
+  background-color: #f5b453;
+  width: 20%;
+}
+.high{
+  background-color: #0d0;
+  width: 55%;
+}
+.low{
+  background-color: #bf4141;
+  width: 6%;
+}
